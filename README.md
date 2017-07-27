@@ -1,18 +1,18 @@
-#Final Project - Title //TODO
+#Final Project - Title "WITTY"
 Class attendance from here on out is mandatory.
 All deadlines are due by the class time
 
-Detailed Description (Add pictures/videos by Demo day) //todo
+Detailed Description (Add pictures/videos by Demo day)
+
 i would like to make app that is really simple but very useful and easy to use.
 Lots of people in this world dont have much time. Even the facebook users are declining. So in todays world due
 lack of time people don have much fun.I would like to develop app which brings smiles in the face.
 app users can be from child to old grand parents.ther for my product's target is users.
 Very simple ti use. either scroll or just shake the app. can use voice command. user  have to sign, will be directed how to use.
+
 MY APP NAME WILL BE "WITTY"
 
 ##Due 08/25-27:
-
-
 * Decide on the Idea.
 * Fill out the requirements section and the use case section.
 * Make sure you discuss the idea and milestones with me on the first day, or anytime you decide to pivot your project.
