@@ -22,11 +22,11 @@ MY APP NAME WILL BE "WITTY"
 	3. Are there any issues that I am stuck on and need help.
 
 ##App requirements(listed formally):
-login page
-3 API
-gesture detection
-Xkcd
-share humor
+login page,
+3 API,
+gesture detection,
+Xkcd,
+share humor,
 voice over
 
 ##App Use cases
