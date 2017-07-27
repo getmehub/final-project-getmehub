@@ -3,9 +3,15 @@ Class attendance from here on out is mandatory.
 All deadlines are due by the class time
 
 Detailed Description (Add pictures/videos by Demo day) //todo
+i would like to make app that is really simple but very useful and easy to use.
+Lots of people in this world dont have much time. Even the facebook users are declining. So in todays world due
+lack of time people don have much fun.I would like to develop app which brings smiles in the face.
+app users can be from child to old grand parents.ther for my product's target is users.
+Very simple ti use. either scroll or just shake the app. can use voice command. user  have to sign, will be directed how to use.
+MY APP NAME WILL BE "WITTY"
 
 ##Due 08/25-27:
-Prepare This Readme. 
+
 
 * Decide on the Idea.
 * Fill out the requirements section and the use case section.
@@ -16,11 +22,18 @@ Prepare This Readme.
 	3. Are there any issues that I am stuck on and need help.
 
 ##App requirements(listed formally):
-//TODO
+login page
+3 API
+gesture detection
+Xkcd
+share humor
+voice over
 
 ##App Use cases
-List atleast 5 use cases here.
-//TODO
+User have choice of sending the jokes to frinds.
+User can shake skip the jokes if they want to see different.
+voice command can be used to go next or previous jokes.
+
 
 ##Due 07/25:
 * Basic project Setup
