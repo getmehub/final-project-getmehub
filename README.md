@@ -52,8 +52,8 @@ later in futer if time permits then we can add XKCD API.
 
 ##Due 07/27:
 * Setup UI.
-* build out all the layout xmls.
-###Scrum meeting notes:
+
+alt="Screen Shot 2017-08-02 at 8.44.55 PM" width="240" height="180" border="10" /></a>
 
 
 
