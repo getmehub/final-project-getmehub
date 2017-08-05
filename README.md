@@ -23,10 +23,15 @@ MY APP NAME WILL BE "WITTY"
 
 ##App requirements(listed formally):
 login page,
+
 3 API,
+
 gesture detection,
+
 Xkcd,
+
 share humor,
+
 voice over
 
 ##App Use cases
@@ -36,16 +41,19 @@ voice command can be used to go next or previous jokes.
 
 
 ##Due 07/25:
-* Basic project Setup
-* Setup an apporiate git ignore.
-* setup and test github pushes.
+
+* Basic project Setup by uplaoded  layout XML file into git
+* Setup an apporiate git ignore. done
+* setup and test github pushes. done
 ###Scrum meeting notes:
+just went through brief discuiion on layout and decided to use API for text only and complete the project.
+later in futer if time permits then we can add XKCD API.
 
 
 ##Due 07/27:
 * Setup UI.
-* build out all the layout xmls.
-###Scrum meeting notes:
+
+alt="Screen Shot 2017-08-02 at 8.44.55 PM" width="240" height="180" border="10" /></a>
 
 
 
