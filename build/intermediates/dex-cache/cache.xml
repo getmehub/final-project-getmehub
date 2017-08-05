@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/MacBook/AndroidStudioProjects/Witty/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/MacBook/AndroidStudioProjects/final-project-getmehub/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1e8442f646e110f11a5e2664c5d61d8d04bad455">
+        <dex dex="/Users/MacBook/AndroidStudioProjects/final-project-getmehub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fab5945b3217d8a20848180a772fb18ca926ee9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MacBook/AndroidStudioProjects/final-project-getmehub/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/MacBook/AndroidStudioProjects/Witty/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_20e414c281d53eab8a7c1abeb922c406833d56ff/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MacBook/AndroidStudioProjects/Witty/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="7b029f53492c4ba86f47e12c805dbb36877aaaeb">
-        <dex dex="/Users/MacBook/AndroidStudioProjects/Witty/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_72db7069a132251cca0f68c60339ed52018936ea/classes.dex" />
+        <dex dex="/Users/MacBook/AndroidStudioProjects/final-project-getmehub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d2bf6721ae13b61b12971b1467a5a2ae90a7a073/classes.dex" />
     </item>
 
 </items>
