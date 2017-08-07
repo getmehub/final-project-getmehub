@@ -30,7 +30,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity  implements SensorEventListener{
 
-LayoutInflater inflater;
+    LayoutInflater inflater;
     TextView textView;
     TextToSpeech textToSpeech;
     Button saveButton1;

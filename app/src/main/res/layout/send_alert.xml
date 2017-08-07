@@ -9,10 +9,10 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:layout_weight="1"
-        android:background="#000"
+        android:background="#99ceff"
         android:gravity="center"
-        android:padding="10dp"
-        android:text="Disclaimer: Keep smiling !"
+        android:padding="30dp"
+        android:text="Notice. Some of the contents might not be suitable for childern. Witty brings Smile on you for sure ;)!"
         android:textColor="@color/colorRed"
         android:layout_above="@+id/saveButton"
         android:layout_alignParentTop="true" />
@@ -34,9 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Got It!!"
-        android:layout_alignParentBottom="true"
+        android:text="Cool !!"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp" />
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
