@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/MacBook/AndroidStudioProjects/final-project-getmehub/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="1e8442f646e110f11a5e2664c5d61d8d04bad455">
-        <dex dex="/Users/MacBook/AndroidStudioProjects/final-project-getmehub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fab5945b3217d8a20848180a772fb18ca926ee9e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MacBook/AndroidStudioProjects/final-project-getmehub/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/MacBook/final-project-getmehub/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/MacBook/AndroidStudioProjects/final-project-getmehub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d2bf6721ae13b61b12971b1467a5a2ae90a7a073/classes.dex" />
+        <dex dex="/Users/MacBook/final-project-getmehub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_92ff14b01bc39d8b8c2133e5bc5fcec6ce1f84e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MacBook/final-project-getmehub/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1441f568508d3b8c51bd73e5a4c06649fccb231a">
+        <dex dex="/Users/MacBook/final-project-getmehub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_df2f0db023e79217ddb2d2f43e08e1bef9d8de42/classes.dex" />
     </item>
 
 </items>
