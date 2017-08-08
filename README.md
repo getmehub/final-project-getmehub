@@ -1,70 +1,68 @@
 #Final Project - Title "WITTY"
-Class attendance from here on out is mandatory.
-All deadlines are due by the class time
 
-Detailed Description (Add pictures/videos by Demo day)
+## Intro:
+I would like to make app that is really simple but very useful and easy to use.
+Lots of people in this world don't have much time to dig around the features and usefulness of an app.
+Even the facebook users are declining as it is getting to complicated to use. So in today's world due
+lack of time, people don't have much for fun.I would like to develop app which brings smiles in their face.
+App users ranges from child to old grand parents and they are my product's target users.
 
-i would like to make app that is really simple but very useful and easy to use.
-Lots of people in this world dont have much time. Even the facebook users are declining. So in todays world due
-lack of time people don have much fun.I would like to develop app which brings smiles in the face.
-app users can be from child to old grand parents.ther for my product's target is users.
-Very simple ti use. either scroll or just shake the app. can use voice command. user  have to sign, will be directed how to use.
+##Three main feature of this app are:
 
-MY APP NAME WILL BE "WITTY"
+-Very simple to use and no need for user login.
 
-##Due 08/25-27:
-* Decide on the Idea.
-* Fill out the requirements section and the use case section.
-* Make sure you discuss the idea and milestones with me on the first day, or anytime you decide to pivot your project.
-* You should be able to answer the following every meeting.
-	1. What have I done since our last meeting
-	2. What I plan do to till the next meeting
-	3. Are there any issues that I am stuck on and need help.
+-Jokes can be listen as well.
+
+-Shake the app device the it will change to next joke.
+
 
 ##App requirements(listed formally):
-login page,
 
-3 API,
+2 API,
 
-gesture detection,
+Gesture detection,
 
 Xkcd,
 
-share humor,
+share humor through text messanger,
 
 voice over
 
 ##App Use cases
-User have choice of sending the jokes to frinds.
+User have choice of sending the jokes to friends.
 User can shake skip the jokes if they want to see different.
 voice command can be used to go next or previous jokes.
 
 
 ##Due 07/25:
-
 * Basic project Setup by uplaoded  layout XML file into git
 * Setup an apporiate git ignore. done
 * setup and test github pushes. done
 ###Scrum meeting notes:
-just went through brief discuiion on layout and decided to use API for text only and complete the project.
-later in futer if time permits then we can add XKCD API.
+just went through brief discussion on layout and decided to use API for text only and complete the project.
+later in future if time permits then we can add XKCD API.
 
 
 ##Due 07/27:
 * Setup UI.
 
-alt="Screen Shot 2017-08-02 at 8.44.55 PM" width="240" height="180" border="10" /></a>
-
+![alt text]="Screen Shot 2017-08-02 at 8.44.55 PM" width="240" height="180" border="10" /></a>
+![alt text](screenshots/image1.png "welcome page wih some info and disclouser")
 
 
 ##Due 08/01:
 * UI setup.
+![alt text](screenshots/ image2.png"main page with 4 buttons and its features")
+
 ###Scrum meeting notes:
 
 
 ---
 ##Due(minor) 08/03:
 //TODO
+![alt text](screenshots/"image3.png "some directions of changing to next 
+tetx by shiffiling device")
+
 ###Scrum meeting notes:
 //TODO
 

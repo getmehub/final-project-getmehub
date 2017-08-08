@@ -90,18 +90,6 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
                 new AsyncJsonFeed().execute("http://api.icndb.com/jokes/random");  //executes the asnyctask using the url
                 count--;
 
-                if(count == 3) {
-                    AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-                    alertDialog.setTitle("Here comes new features.");
-                    alertDialog.setMessage("Shake it ... Shake it... if you wana next");
-                    alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Okay :( ",
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int which) {
-                                    dialog.dismiss();
-                                }
-                            });
-                    alertDialog.show();
-                }
             }
         });
 
