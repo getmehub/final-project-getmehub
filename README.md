@@ -48,19 +48,18 @@ later in future if time permits then we can add XKCD API.
 
 ![alt text]="final-project-getmehub/blob/master/image1.png" width="240" height="180" border="10" /></a>
 
-![alt text](/Users/MacBook/final-project-getmehub/image1.png)
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image1.png)
 
 ##Due 08/01:
 * UI setup.
-![alt text](screenshots/ image2.png"main page with 4 buttons and its features")
-
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image2.png)
 ###Scrum meeting notes:
 
 
 ---
 ##Due(minor) 08/03:
 //TODO
-![alt text](screenshots/"image3.png "some directions of changing to next 
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image3.png) "some directions of changing to next 
 tetx by shiffiling device")
 
 ###Scrum meeting notes:
