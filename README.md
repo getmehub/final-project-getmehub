@@ -45,22 +45,17 @@ later in future if time permits then we can add XKCD API.
 
 ##Due 07/27:
 * Setup UI.
-
-![alt text]="final-project-getmehub/blob/master/image1.png" width="240" height="180" border="10" /></a>
-
 ![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image1.png)
-
+### "welcome page with some disclouser"
+------
 ##Due 08/01:
 * UI setup.
 ![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image2.png)
-###Scrum meeting notes:
-
-
+### "Main page with some eventsbuttons"
 ---
 ##Due(minor) 08/03:
-//TODO
-![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image3.png) "some directions of changing to next 
-tetx by shiffiling device")
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image3.png) 
+### "some directions of changing to next text by shiffiling device")
 
 ###Scrum meeting notes:
 //TODO
