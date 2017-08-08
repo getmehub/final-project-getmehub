@@ -46,9 +46,9 @@ later in future if time permits then we can add XKCD API.
 ##Due 07/27:
 * Setup UI.
 
-![alt text]="Screen Shot 2017-08-02 at 8.44.55 PM" width="240" height="180" border="10" /></a>
-![alt text](screenshots/image1.png "welcome page wih some info and disclouser")
+![alt text]="final-project-getmehub/blob/master/image1.png" width="240" height="180" border="10" /></a>
 
+![alt text](/Users/MacBook/final-project-getmehub/image1.png)
 
 ##Due 08/01:
 * UI setup.
