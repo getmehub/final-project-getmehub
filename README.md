@@ -15,6 +15,7 @@ App users ranges from child to old grand parents and they are my product's targe
 
 -Shake the app device the it will change to next joke.
 
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image5.png)
 
 ##App requirements(listed formally):
 
