@@ -20,6 +20,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 import com.mm.witty.R;
 import com.mm.witty.Request.JsonRequest;
 
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
     private SensorManager sensorManager;
     private View view;
     private long lastUpdate;
-    private int count;
+    private int counter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,10 +65,12 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
             @Override
             public void onClick(View view) {
 
-                new AsyncJsonFeed().execute("http://api.icndb.com/jokes/random");  //executes the asnyctask using the url
-                count++;
+                new AsyncJsonFeed().execute("http://api.icndb.com/jokes/random");
+                counter++;
+//                if(counter==array.length) counter =0;
+//                textView.setText(array[counter]);
 
-                if(count == 3) {
+                if(counter == 3) {
                     AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
                     alertDialog.setTitle("Here comes new features.");
                     alertDialog.setMessage("Shake it ... Shake it... if you wana next");
@@ -88,7 +91,11 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
             public void onClick(View view) {
 
                 new AsyncJsonFeed().execute("http://api.icndb.com/jokes/random");  //executes the asnyctask using the url
-                count--;
+                counter--;
+//                if (counter < 0) {
+//                    counter = array.lennth - 1;
+//                }
+//                textView.setText(array[counter]);
 
             }
         });
@@ -104,7 +111,7 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
                         if(status != TextToSpeech.ERROR){
                             textToSpeech.setPitch(0.4f);
                             textToSpeech.setSpeechRate(1);
-                            textToSpeech.setLanguage(Locale.US);
+                            textToSpeech.setLanguage(Locale.ENGLISH);
                             textToSpeech.speak(convertTextToSpeech, TextToSpeech.QUEUE_FLUSH, null, null);
                         }
                     }
@@ -215,7 +222,7 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
                 JSONObject value = jo.getJSONObject("value");
 
                 textView.setText(value .getString("joke"));
-                //textView.setText(value.getString("number") + value.getString("proverb")); // will pick these objects
+
             } catch (JSONException ex)
             {
                 Log.d("JSONArray", ex.getLocalizedMessage());
