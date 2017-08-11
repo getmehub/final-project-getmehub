@@ -1,102 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:gravity="center"
     android:visibility="visible"
+    android:background="@drawable/image9"
     app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     tools:context="com.mm.witty.Model.MainActivity">
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="552dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="0dp"
-            android:background="@drawable/image9"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
             android:text="Click The Next Joke button To Keep Bring Smile."
             android:textColor="@color/colorWhite"
             android:textSize="22sp"
             android:textStyle="bold"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
             app:layout_constraintTop_toTopOf="parent"
-            tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintTop_creator="1" />
+            tools:layout_constraintTop_creator="1"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_alignParentTop="true" />
 
-        <Button
-            android:id="@+id/nextjke"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/textView"
-            android:layout_marginBottom="83dp"
-            android:layout_marginEnd="3dp"
-            android:background="@android:color/holo_green_light"
-            android:drawableRight="@drawable/arrow_right"
-            android:text="Refresh"
-            app:layout_constraintBottom_toTopOf="@+id/textTOSpeech"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="@+id/textTOSpeech"
-            tools:layout_constraintBottom_creator="1"
-            tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintRight_creator="1" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="459dp"
+    android:weightSum="1"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true">
 
         <Button
             android:id="@+id/textTOSpeech"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_alignBaseline="@+id/nextjke"
-            android:layout_alignBottom="@+id/nextjke"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="74dp"
-            android:layout_marginLeft="-20dp"
-            android:background="@android:color/holo_orange_light"
+            android:layout_height="match_parent"
             android:text="Speech"
-            android:drawableRight="@drawable/speaker"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_constraintBottom_creator="1"
-            tools:layout_constraintLeft_creator="1" />
-
-        <Button
-            android:id="@+id/previousjke"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginEnd="61dp"
-            android:layout_marginRight="80dp"
-            android:layout_marginTop="0dp"
-            android:background="@android:color/holo_blue_dark"
-            android:text="Previous"
-            android:drawableLeft="@drawable/arrow_left"
-
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/nextjke"
-            tools:layout_constraintRight_creator="1"
-            tools:layout_constraintTop_creator="1" />
+            android:drawableRight="@drawable/speaker" />
 
         <Button
             android:id="@+id/Xkcds"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginBottom="74dp"
-            android:layout_marginLeft="248dp"
-            android:layout_marginStart="216dp"
-            android:background="@android:color/holo_blue_bright"
-            android:text="XkcdPic"
-            android:drawableRight="@drawable/arrow_right"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            tools:layout_constraintBottom_creator="1"
-            tools:layout_constraintLeft_creator="1" />
+            android:layout_height="match_parent"
+            android:text="Cartoon" />
+
+        <Button
+            android:id="@+id/nextjke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:drawableRight="@drawable/arrow_right"/>
+
+        <Button
+            android:id="@+id/previousjke"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/arrow_left"
+            android:text="Prev" />
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
+
+
+
+</RelativeLayout>

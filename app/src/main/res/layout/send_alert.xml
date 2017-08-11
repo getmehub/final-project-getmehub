@@ -13,29 +13,33 @@
         android:background="#000"
         android:gravity="center"
         android:padding="30dp"
-        android:text="Notice. Some of the contents might not be suitable for childern. Witty brings Smile on you for sure ;)!"
+        android:text=" Notice ! Some of the contents might not be suitable for childern.
+         Witty brings Smile on you for sure ;)!"
         android:textColor="@color/colorRed"
         android:layout_above="@+id/saveButton"
         android:layout_alignParentTop="true" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:orientation="vertical"
-        android:id="@+id/linearLayout"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/saveButton">
 
-    </LinearLayout>
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text= "WITTY"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            />
+
 
     <Button
         android:id="@+id/saveButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Cool !!"
+        android:text="I Agree !!"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true" />
 

@@ -10,6 +10,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.speech.tts.TextToSpeech;
 import android.support.annotation.RequiresApi;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,14 +20,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
-
+import android.content.Intent;
 import com.mm.witty.R;
 import com.mm.witty.Request.JsonRequest;
+import com.mm.witty.Viewpage.cartoons;
+import com.mm.witty.Viewpage.xkcd;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity  implements SensorEventListener{
@@ -43,11 +44,13 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
     private View view;
     private long lastUpdate;
     private int counter;
+    private Button Xkcds;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        init();
 
         inflater = MainActivity.this.getLayoutInflater();
         nextJoke = (Button)findViewById(R.id.nextjke);
@@ -55,11 +58,14 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
         textView = (TextView) findViewById(R.id.textView);
         previousJoke = (Button)findViewById(R.id.previousjke);
 
+
+
         setImageName();
         view = findViewById(R.id.textView);
         // Create an object of Sensor manager
         sensorManager=(SensorManager) getSystemService(SENSOR_SERVICE);
         lastUpdate = System.currentTimeMillis();
+
 
         nextJoke.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -134,8 +140,7 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
 
 
 
-    public void setImageName()
-    {
+    public void setImageName() {
         // Create a new instance of ALertDialog box
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         // inflate from save_picture.xml
@@ -157,6 +162,29 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
                 dialog.dismiss();
 
 
+            }
+        });
+    }
+// takes us to new view page with xkcd images.
+//        public void init(){
+//            Xkcds = (Button) findViewById(R.id.Xkcds);
+//        Xkcds.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View view){
+//
+//                Intent xKcd = new Intent(MainActivity.this,xkcd.class);
+//                startActivity(xKcd);
+//            }
+//        });
+
+    public void init(){
+        Xkcds = (Button) findViewById(R.id.Xkcds);
+        Xkcds.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                Intent xKcd = new Intent(MainActivity.this,cartoons.class);
+                startActivity(xKcd);
             }
         });
 
