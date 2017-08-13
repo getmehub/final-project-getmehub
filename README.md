@@ -60,19 +60,21 @@ later in future if time permits then we can add XKCD API.
 
 ###Scrum meeting notes:
 //TODO
-
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image5.png)
 ---
 ##Due 08/08:
 //TODO
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image6.png)
 ###Scrum meeting notes:
 //TODO
-
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image7.png)
 ---
 ##Due(minor) 08/10:
 //TODO
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image8.png)
 ###Scrum meeting notes:
 //TODO
-
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image5.png)
 ---
 ##Demo Day 08/tentative:
 //TODO
