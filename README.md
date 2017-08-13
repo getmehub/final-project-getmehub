@@ -55,35 +55,29 @@ later in future if time permits then we can add XKCD API.
 ### "Main page with some eventsbuttons"
 ---
 ##Due(minor) 08/03:
+* UI setup.
 ![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image3.png) 
-### "some directions of changing to next text by shiffiling device")
-
+### "some directions of changing to next text by shiffiling device"
+------
 ###Scrum meeting notes:
-//TODO
+* UI setup.
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image4.png)
 
+## instruction to change next text
 ---
 ##Due 08/08:
-//TODO
-###Scrum meeting notes:
-//TODO
+* ui setup.
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image6.png)
 
----
+###Scrum meeting notes:
+* ui setup.
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image7.png)
+
 ##Due(minor) 08/10:
-//TODO
-###Scrum meeting notes:
-//TODO
+![alt text](https://github.com/csc413-summer-2017/final-project-getmehub/blob/master/image8.png)
 
----
-##Demo Day 08/tentative:
-//TODO
+### Youtube Vedio
+<a href="https://youtu.be/QY04FO9q9xg
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="Youtube vedio" width="240" height="180" border="10" /></a>
 
-##Final Submission 08/tentative:
-//TODO
-
----
-
----
-##Notes
-
-* Your requirements and intended features may change during scrums. Make sure you update this Readme if that happens(I encourage changes in the requirements).
-* Make sure you attend class regularly and show me the completed requirements in class.
