@@ -78,6 +78,6 @@ later in future if time permits then we can add XKCD API.
 
 ### Youtube Vedio
 <a href="https://youtu.be/QY04FO9q9xg
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="Youtube vedio" width="240" height="180" border="10" /></a>
+" target="_blank"><img src="http://img.youtube.com/vi/wittyimg1.png" 
+alt="Youtube vedio please click here" width="240" height="180" border="10" /></a>
 
