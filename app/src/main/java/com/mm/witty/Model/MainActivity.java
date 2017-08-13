@@ -23,8 +23,9 @@ import android.widget.Toast;
 import android.content.Intent;
 import com.mm.witty.R;
 import com.mm.witty.Request.JsonRequest;
+import com.mm.witty.Viewpage.SwipeAdapter;
 import com.mm.witty.Viewpage.cartoons;
-import com.mm.witty.Viewpage.xkcd;
+import com.mm.witty.Viewpage.SwipeAdapter;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -38,11 +39,13 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
     Button saveButton1;
     Button previousJoke;
 
+
     private Button nextJoke;
     private Button btnTextToSpeech;
     private SensorManager sensorManager;
     private View view;
     private long lastUpdate;
+
     private int counter;
     private Button Xkcds;
 
@@ -57,8 +60,6 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
         btnTextToSpeech = (Button)findViewById(R.id.textTOSpeech);
         textView = (TextView) findViewById(R.id.textView);
         previousJoke = (Button)findViewById(R.id.previousjke);
-
-
 
         setImageName();
         view = findViewById(R.id.textView);
@@ -138,8 +139,6 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
         super.onDestroy();
     }
 
-
-
     public void setImageName() {
         // Create a new instance of ALertDialog box
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
@@ -160,22 +159,9 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
 
 
                 dialog.dismiss();
-
-
             }
         });
     }
-// takes us to new view page with xkcd images.
-//        public void init(){
-//            Xkcds = (Button) findViewById(R.id.Xkcds);
-//        Xkcds.setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View view){
-//
-//                Intent xKcd = new Intent(MainActivity.this,xkcd.class);
-//                startActivity(xKcd);
-//            }
-//        });
 
     public void init(){
         Xkcds = (Button) findViewById(R.id.Xkcds);
@@ -183,7 +169,7 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
             @Override
             public void onClick(View view){
 
-                Intent xKcd = new Intent(MainActivity.this,cartoons.class);
+                Intent xKcd = new Intent(MainActivity.this, cartoons.class);
                 startActivity(xKcd);
             }
         });
@@ -236,7 +222,7 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
 
     }
 
-    class AsyncJsonFeed extends AsyncTask<String, Void, String>
+    public class AsyncJsonFeed extends AsyncTask<String, Void, String>
     {
         @RequiresApi(api = Build.VERSION_CODES.KITKAT)
         protected String doInBackground(String... urls){

@@ -19,9 +19,7 @@
         android:layout_above="@+id/saveButton"
         android:layout_alignParentTop="true" />
 
-
-
-        <TextView
+    <TextView
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="25dp"

@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Viewpage.cartoons"/>
+        <activity android:name=".Viewpage.SwipeAdapter"/>
 
     </application>
 
